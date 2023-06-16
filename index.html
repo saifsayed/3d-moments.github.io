@@ -50,18 +50,18 @@
           <h1 class="title is-1 publication-title">A New Dataset and Approach for Timestamp Supervised Action Segmentation Using Human Object Interaction</h1>
           <div class="is-size-5 publication-authors">
             <span class="author-block">
-              <a href="https://www.cs.cornell.edu/~qqw/">Saif Sayed</a></span>
+              <a href="https://www.cs.cornell.edu/~qqw/">Saif Sayed, </a></span>
             <span class="author-block">
-              <a href="https://www.cs.cornell.edu/~zl548/">Reza Ghoddoosian</a></span>
+              <a href="https://www.cs.cornell.edu/~zl548/">Reza Ghoddoosian, </a></span>
             <span class="author-block">
-              <a href="http://salesin.cs.washington.edu/">Bhaskar Trivedi</a></span>
+              <a href="http://salesin.cs.washington.edu/">Bhaskar Trivedi, </a></span>
             <span class="author-block">
               <a href="https://www.cs.cornell.edu/~snavely/">Vassilis Athitsos</a></sup>,
             </span>
           </div>
 
           <div class="is-size-5 publication-authors">
-            <span class="author-block"><sup>1</sup>University of Texas at Arlington &nbsp; </span>
+            <span class="author-block">University of Texas at Arlington &nbsp; </span>
 
           </div>
 
@@ -91,7 +91,7 @@
               </span>
               <!-- Video Link. -->
               <span class="link-block">
-                <a href="#overview_video"
+                <a href="https://drive.google.com/file/d/1k10xURqylCnFMexyg-GDV9OcXwIx7soz/view?usp=sharing"
                    class="external-link button is-normal is-rounded is-dark">
                   <span class="icon">
                       <i class="fab fa-youtube"></i>
@@ -119,16 +119,6 @@
                   <span>Code</span>
                   </a>
               </span>
-              <!-- Dataset Link. -->
-              <!-- <span class="link-block">
-                <a href="https://github.com/google/nerfies/releases/tag/0.1"
-                   class="external-link button is-normal is-rounded is-dark">
-                  <span class="icon">
-                      <i class="far fa-images"></i>
-                  </span>
-                  <span>Data</span>
-                  </a>
-              </span> -->
             </div>
 
           </div>
@@ -202,7 +192,7 @@
         <h2 class="title is-3">Abstract</h2>
         <div class="content has-text-justified">
           <p>
-          We introduce 3D Moments, a new computational photography effect. As input we take a pair of near-duplicate photos, i.e., photos of moving subjects from similar viewpoints, common in people's photo collections. As output, we produce a video that smoothly interpolates the scene motion from the first photo to the second, while also producing camera motion with parallax that gives a heightened sense of 3D. To achieve this effect, we represent the scene as a pair of feature-based layered depth images augmented with scene flow. This representation enables motion interpolation along with independent control of the camera viewpoint. Our system produces photo-realistic space-time videos with motion parallax and scene dynamics, while plausibly recovering regions occluded in the original views. We conduct extensive experiments demonstrating superior performance over baselines on public datasets and in-the-wild photos.
+            This paper focuses on leveraging Human Object Interac- tion (HOI) information to improve temporal action segmen- tation under timestamp supervision, where only one frame is annotated for each action segment. This information is obtained from an off-the-shelf pre-trained HOI detector, that requires no additional HOI-related annotations in our experimental datasets. Our approach generates pseudo la- bels by expanding the annotated timestamps into intervals and allows the system to exploit the spatio-temporal con- tinuity of human interaction with an object to segment the video. We also propose the (3+1)Real-time Cooking (ReC)1 dataset as a realistic collection of videos from 30 partic- ipants cooking 15 breakfast items. Our dataset has three main properties: 1) to our knowledge, the first to offer syn- chronized third and first person videos, 2) it incorporates di- verse actions and tasks, and 3) it consists of high resolution frames to detect fine-grained information. In our experi- ments we benchmark state-of-the-art segmentation methods under different levels of supervision on our dataset. We also quantitatively show the advantages of using HOI information, as our framework improves its baseline segmentation method on several challenging datasets with varying view- points, providing improvements of up to 10.9% and 5.3% in F1 score and frame-wise accuracy respectively.
           </p>
         </div>
       </div>
@@ -339,7 +329,7 @@ Our method cannot handle motions that are too large/challenging, and doesn't wor
   <div align="center" class="container">
     <div class="columns is-centered">
         <div class="content">
-            This website is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a>.
+            This website is borrowed from <a href="https://github.com/nerfies/nerfies.github.io">3D-moments</a>.
         </div>
       </div>
     </div>
