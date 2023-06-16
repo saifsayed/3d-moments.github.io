@@ -154,10 +154,36 @@
 
 <section class="hero teaser">
   <div class="container is-max-desktop">
+    <h2 class="title is-3">Videos</h2>
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline controls width="100%"><source src="static/videos/teaser2.mp4" type="video/mp4"></video>
+      <h2 class="subtitle has-text-centered">
+        Diverse environments for Dish "Avocado Toast"
+      </h2>
+    </div>
+  </div>
+</section>
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Videos</h2>
+    <div class="hero-body">
+      <video id="teaser" autoplay muted loop playsinline controls width="100%"><source src="static/videos/teaser2.mp4" type="video/mp4"></video>
+      <h2 class="subtitle has-text-centered">
+        Multiple Viewpoints for the same Dish"
+      </h2>
+    </div>
+  </div>
+</section>
+
+
+<section class="hero teaser">
+  <div class="container is-max-desktop">
+    <h2 class="title is-3">Qualitative Results</h2>
     <div class="hero-body">
       <img style='height: auto; width: 100%; object-fit: contain' src="static/images/qualitative_results.png" alt="qual_res">
       <h2 class="subtitle has-text-centered">
-        The proposed training framework. The secondary labels generator creates new pseudo ground-truth, κ using the HOI detections ρ and existing timestamp annotations. The binarized pseudo ground-truth(α) also provides new supervisory signal to the primary label generator for generating frame-wise labels β. 
+        Qualitative results on (a) 50Salads, (b) GTEA datasets and (c)(3+1)ReC. The baseline method suffers from over- segmentation, while our approach alleviates this issue by utilizing the continuity in human object interaction. 
       </h2>
     </div>
   </div>
@@ -253,95 +279,6 @@
 
  <br>
   <br>
-
-<section>
-  <div class="columns is-centered has-text-centered">
-    <h2 class="title is-3"> More Results</h2>
-</div>
-<br>
-
-<div id="wrapper" style="text-align:center;"> 
-    <video autoplay controls muted loop playsinline id="result_video_side" height="400px" width="auto" > 
-        <source type="video/mp4" src="static/videos/2558_side-0-1.mp4" /> 
-    </video>
-
-    <video autoplay controls muted loop playsinline id="result_video_side"> 
-        <source type="video/mp4" src="static/videos/000654_side-0-1.mp4" /> 
-    </video>
-    <video  autoplay controls muted loop playsinline id="result_video_side"> 
-        <source type="video/mp4" src="static/videos/000242_side-0-1.mp4" /> 
-    </video>
-
-    <div class="clear"></div>
-Tracking camera motion (horizontal) 
-</div>
-
-<br>
-
-<div id="wrapper" style="text-align:center;  padding: 2em 0;"> 
-    <video  autoplay controls muted loop playsinline id="result_video_updown"> 
-        <source type="video/mp4" src="static/videos/000679_up-down-0-1.mp4" /> 
-    </video>
-
-    <video autoplay controls muted loop playsinline id="result_video_updown"> 
-        <source type="video/mp4" src="static/videos/5428_up-down-0-1.mp4" /> 
-    </video>
-
-    <video  autoplay controls muted loop playsinline id="result_video_updown"> 
-        <source type="video/mp4" src="static/videos/000350_up-down-0-1.mp4" /> 
-    </video>
-
-    <div class="clear"></div> 
-
-Tracking camera motion (vertical) 
-</div>
-
-<br>
-
-<div id="wrapper" style="text-align:center;"> 
-    <video  autoplay controls muted loop playsinline id="result_video_zooming"> 
-        <source type="video/mp4" src="static/videos/zoom-in_000204-0-1.mp4" /> 
-    </video>
-
-    <video autoplay controls muted loop playsinline id="result_video_zooming"> 
-        <source type="video/mp4" src="static/videos/zoom-in_0161-0-1.mp4" /> 
-    </video>
-
-    <video  autoplay controls muted loop playsinline id="result_video_zooming"> 
-        <source type="video/mp4" src="static/videos/zoom-in_000304-0-1.mp4" /> 
-    </video>
-
-    <div class="clear"></div> 
-
-Zooming-In camera motion 
-</div>
-</section>
-
-<br>
-<br>
-
-<section>
-    <div class="columns is-centered has-text-centered">
-      <h2 class="title is-3"> Failure Cases</h2>
-    </div>
-<br>
-    <div id="wrapper" style="text-align:center;"> 
-    <video  autoplay controls muted loop playsinline id="failure_video"> 
-        <source type="video/mp4" src="static/videos/failure1.mp4" /> 
-    </video>
-&nbsp;&nbsp;
-    <video  autoplay controls muted loop playsinline id="failure_video"> 
-        <source type="video/mp4" src="static/videos/failure2.mp4" /> 
-    </video>
-
-    <div class="clear"></div> 
-Our method cannot handle motions that are too large/challenging, and doesn't work well with incorrectly estimated monocular depths.
-
-</div>
-</section>
-
-
-
 
 <section class="section" id="BibTeX">
   <div class="container is-max-desktop content">
